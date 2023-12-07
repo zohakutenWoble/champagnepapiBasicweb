@@ -1,0 +1,214 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="/css/materialize.min.css">
+  <style>
+    header{
+      background: url(img/1.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 1000px;
+      z-index: -1;
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+      }
+    }
+    .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+    .tabs .indicator{
+      background-color: #1a237e;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }
+    .brand-logo{
+        position: absolute;
+        
+        left: 120px;
+        width: 250px;
+    }
+    .parallax-container{
+      height: 150px;
+
+    }
+    ul a{
+      color: black;
+    }
+    div .carousel{
+      height: 380px;
+    }
+    .social-btn {
+        
+      }
+
+    
+    
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="#" class="brand-logo ">
+            <img src="img/logo.png" alt="brand-logo" >
+        </a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down ">
+          <li><a href="#About" class="black-text">About</a></li>
+          <li><a href="#Social Media" class="black-text">Social Media</a></li>
+          
+        </ul>
+        <ul class="sidenav grey darken-2" id="mobile-menu">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Social Media</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+  </header>\
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/3.jpg" alt="Parallax Image">
+    </div>
+  </div>
+
+
+  <!-- services / tabs -->
+  <section class="section container scrollspy" id="About">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="black-text">About</h2>
+        <p>Aubrey Drake Graham born October 24, 1986, known professionally as Drake, is a Canadian rapper and singer. An influential figure in contemporary popular music.</p>
+        <p>Drake has been credited with popularizing singing and R&B sensibilities in hip hop.</p>
+      </div>
+      <div class="col s12 l6 offset-l2">
+        <!-- tabs -->
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#albums" class="active black-text hoverable">Albums</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#notes" class="active black-text hoverable">Note for albums</a>
+          </li>
+        </ul>
+        <div id="albums" class="col s12">
+            <p class="flow-text black-text hoverable ">Albums</p>
+            <div class="carousel carousel-slider" data-indicators="true">
+              <a href="https://open.spotify.com/album/5mz0mJxb80gqJIcRf9LGHJ" class="carousel-item"><img src="albums/13.png"></a>
+              <a href="https://open.spotify.com/album/0ptlfJfwGTy0Yvrk14JK1I" class="carousel-item"><img src="albums/15.png"></a>
+              <a href="https://open.spotify.com/album/40GMAhriYJRO1rsY4YdrZb" class="carousel-item"><img src="albums/16.jpg"></a>
+              <a href="https://open.spotify.com/album/1lXY618HWkwYKJWBRYR4MK" class="carousel-item"><img src="albums/17.jpg"></a>
+              <a href="https://open.spotify.com/album/1ATL5GLyefJaxhQzSPVrLX" class="carousel-item"><img src="albums/18.jpg"></a>
+              <a href="https://open.spotify.com/album/00HZxSA1sOS9T3nA950sg4" class="carousel-item"><img src="albums/19.png"></a>
+              <a href="https://open.spotify.com/album/6OQ9gBfg5EXeNAEwGSs6jK class="carousel-item"><img src="albums/20.png"></a>
+              <a href="https://open.spotify.com/album/3SpBlxme9WbeQdI9kx7KAV" class="carousel-item"><img src="albums/21.png"></a>
+              <a href="https://open.spotify.com/album/5LuoozUhs2pl3glZeAJl89" class="carousel-item"><img src="albums/212.png"></a>
+              <a href="https://open.spotify.com/album/5MS3MvWHJ3lOZPLiMxzOU6" class="carousel-item"><img src="albums/22.png"></a>
+              <a href="https://open.spotify.com/album/4czdORdCWP9umpbhFXK2fW" class="carousel-item"><img src="albums/23.webp"></a>
+            </div>
+        </div>
+        <div id="notes" class="col s12">
+            <p class="flow-text black-text ">CLICK EVERY PICTURE FOR THE LINKS</p>
+            <p class="flow-text black-text">OF DRAKE'S ALBUMS IN SPOTIFY</p>
+            
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/3.jpg" alt="Parallax Image">
+    </div>
+  </div>
+
+  
+  <!-- contact form -->
+  <section class="section container scrollspy" id="Social Media">
+    <div class="row">
+      <div class="col s13 l5 center-align">
+        <h2 class="black-text text-darken-4 center-align">Follow This</h2>
+        <p>Drake Social Media Accounts</p>      
+    </div>
+    <div class="row">
+      <div class="col s2 m2 l1">
+          <a href="https://www.facebook.com/Drake/" class="waves-effect waves-light btn social-btn blue darken-4">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+        <div class="col s2 m2 l1">
+          <a href="https://www.youtube.com/@DrakeVEVO" class="waves-effect waves-light btn social-btn red">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+        <div class="col s2 m2 l1">
+          <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4?si=c9VQVVp8QWewdBrJFvjsyQ" class="waves-effect waves-light btn social-btn green">
+            <i class="fab fa-spotify"></i>
+          </a>
+        </div>
+        <div class="col s2 m2 l1">
+          <a href="https://www.instagram.com/champagnepapi/?hl=en" class="waves-effect waves-light btn social-btn pink">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div class="col s2 m2 l1">
+          <a href="https://twitter.com/Drake" class="waves-effect waves-light btn social-btn light-blue">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright white darken-4">
+      <div class="container center-align">&copy; 2023 VonTags Drizzy</div>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="/js/jquery-3.7.1.js"></script>
+  <script src="/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.scrollspy').scrollSpy();
+      $('.tabs').tabs();
+      $('.carousel').carousel();
+        // function for auto play carousel-slider 
+        setInterval(function(){
+          $('.carousel').carousel('next');
+
+        },2000)
+      
+
+    });
+  </script>
+  <audio autoplay loop>
+    <source src="music/Drake, 21 Savage - Rich Flex (Audio).mp3">
+  </audio>
+</body>
+</html>
